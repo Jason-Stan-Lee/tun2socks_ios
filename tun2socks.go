@@ -10,9 +10,9 @@ import (
 
 	"github.com/Jason-Stan-Lee/go-tun2socks/v2/core"
 	"github.com/Jason-Stan-Lee/go-tun2socks/v2/proxy/v2ray"
-	vcore "github.com/v2fly/v2ray-core/v5"
-	vproxyman "github.com/v2fly/v2ray-core/v5/app/proxyman"
-	"github.com/v2fly/v2ray-core/v5/common/session"
+	vcore "github.com/v2fly/v2ray-core/v4"
+	vproxyman "github.com/v2fly/v2ray-core/v4/app/proxyman"
+	"github.com/v2fly/v2ray-core/v4/common/session"
 )
 
 type PacketFlow interface {
